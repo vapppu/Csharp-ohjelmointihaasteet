@@ -12,7 +12,6 @@
             Taulukko taulukko = new Taulukko(luvut);
 
             Console.WriteLine("\nMiten taulukon jäsenet voidaan muuttaa omiksi vastaluvuikseen?\n");
-
             Console.WriteLine("ENSIMMÄINEN TAPA: luodaan uusi Taulukko-luokka, jolla on arrayn vastaluvuiksi muuttava metodi.\n\nAlkuperäinen taulukko: ");
             Console.WriteLine(taulukko);
 
@@ -20,29 +19,30 @@
 
             Console.WriteLine("\nVastaluvuiksi muutettu taulukko:");
             Console.WriteLine(taulukko);
-
             Console.WriteLine("\n****\n");
-
             Console.WriteLine("TOINEN TAPA: metodi, joka muuttaa luvun omaksi vastaluvukseen. For-toistolauseella muutetaan arrayn luvut vastaluvuiksi luku kerrallaan.\n");
-
             Console.WriteLine("Alkuperäinen taulukko:");
+
             tulostaArray(luvut);
 
             for (int i = 0; i < luvut.Length; i++)
             {
                 luvut[i] = vastaluku(luvut[i]);
             }
+
             Console.WriteLine("\nTaulukon jäsenet muutettu yksi kerrallaan vastaluvuiksi: ");
+
             tulostaArray(luvut);
 
             Console.WriteLine("\n****\n");
-
             Console.WriteLine("KOLMAS TAPA: Extension method Array-luokalle.\n\nAlkuperäinen taulukko: ");
+
             tulostaArray(luvut);
 
             luvut.vastaluvut();
 
             Console.WriteLine("\nTaulukko, joka muutettu vastaluvuiksi Array-luokkaan lisätyllä Extension methodilla: ");
+
             tulostaArray(luvut);
         }
 
