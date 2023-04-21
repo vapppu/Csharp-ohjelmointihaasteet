@@ -1,0 +1,15 @@
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/08-lihapiirakkaongelma/bin/Debug/net7.0/08-lihapiirakkaongelma
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/08-lihapiirakkaongelma/bin/Debug/net7.0/08-lihapiirakkaongelma.deps.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/08-lihapiirakkaongelma/bin/Debug/net7.0/08-lihapiirakkaongelma.runtimeconfig.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/08-lihapiirakkaongelma/bin/Debug/net7.0/08-lihapiirakkaongelma.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/08-lihapiirakkaongelma/bin/Debug/net7.0/08-lihapiirakkaongelma.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/08-lihapiirakkaongelma/obj/Debug/net7.0/08-lihapiirakkaongelma.csproj.AssemblyReference.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/08-lihapiirakkaongelma/obj/Debug/net7.0/08-lihapiirakkaongelma.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/08-lihapiirakkaongelma/obj/Debug/net7.0/08-lihapiirakkaongelma.AssemblyInfoInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/08-lihapiirakkaongelma/obj/Debug/net7.0/08-lihapiirakkaongelma.AssemblyInfo.cs
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/08-lihapiirakkaongelma/obj/Debug/net7.0/08-lihapiirakkaongelma.csproj.CoreCompileInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/08-lihapiirakkaongelma/obj/Debug/net7.0/08-lihapiirakkaongelma.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/08-lihapiirakkaongelma/obj/Debug/net7.0/refint/08-lihapiirakkaongelma.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/08-lihapiirakkaongelma/obj/Debug/net7.0/08-lihapiirakkaongelma.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/08-lihapiirakkaongelma/obj/Debug/net7.0/08-lihapiirakkaongelma.genruntimeconfig.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/08-lihapiirakkaongelma/obj/Debug/net7.0/ref/08-lihapiirakkaongelma.dll
