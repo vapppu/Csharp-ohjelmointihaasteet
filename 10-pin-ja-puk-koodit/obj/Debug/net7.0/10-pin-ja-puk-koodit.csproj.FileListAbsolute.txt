@@ -1,0 +1,15 @@
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/10-pin-ja-puk-koodit/bin/Debug/net7.0/10-pin-ja-puk-koodit
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/10-pin-ja-puk-koodit/bin/Debug/net7.0/10-pin-ja-puk-koodit.deps.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/10-pin-ja-puk-koodit/bin/Debug/net7.0/10-pin-ja-puk-koodit.runtimeconfig.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/10-pin-ja-puk-koodit/bin/Debug/net7.0/10-pin-ja-puk-koodit.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/10-pin-ja-puk-koodit/bin/Debug/net7.0/10-pin-ja-puk-koodit.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/10-pin-ja-puk-koodit/obj/Debug/net7.0/10-pin-ja-puk-koodit.csproj.AssemblyReference.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/10-pin-ja-puk-koodit/obj/Debug/net7.0/10-pin-ja-puk-koodit.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/10-pin-ja-puk-koodit/obj/Debug/net7.0/10-pin-ja-puk-koodit.AssemblyInfoInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/10-pin-ja-puk-koodit/obj/Debug/net7.0/10-pin-ja-puk-koodit.AssemblyInfo.cs
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/10-pin-ja-puk-koodit/obj/Debug/net7.0/10-pin-ja-puk-koodit.csproj.CoreCompileInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/10-pin-ja-puk-koodit/obj/Debug/net7.0/10-pin-ja-puk-koodit.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/10-pin-ja-puk-koodit/obj/Debug/net7.0/refint/10-pin-ja-puk-koodit.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/10-pin-ja-puk-koodit/obj/Debug/net7.0/10-pin-ja-puk-koodit.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/10-pin-ja-puk-koodit/obj/Debug/net7.0/10-pin-ja-puk-koodit.genruntimeconfig.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/10-pin-ja-puk-koodit/obj/Debug/net7.0/ref/10-pin-ja-puk-koodit.dll
