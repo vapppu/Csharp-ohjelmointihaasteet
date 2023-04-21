@@ -1,0 +1,15 @@
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/02-valtakuntien-herruus/bin/Debug/net7.0/02-valtakuntien-herruus
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/02-valtakuntien-herruus/bin/Debug/net7.0/02-valtakuntien-herruus.deps.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/02-valtakuntien-herruus/bin/Debug/net7.0/02-valtakuntien-herruus.runtimeconfig.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/02-valtakuntien-herruus/bin/Debug/net7.0/02-valtakuntien-herruus.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/02-valtakuntien-herruus/bin/Debug/net7.0/02-valtakuntien-herruus.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/02-valtakuntien-herruus/obj/Debug/net7.0/02-valtakuntien-herruus.csproj.AssemblyReference.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/02-valtakuntien-herruus/obj/Debug/net7.0/02-valtakuntien-herruus.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/02-valtakuntien-herruus/obj/Debug/net7.0/02-valtakuntien-herruus.AssemblyInfoInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/02-valtakuntien-herruus/obj/Debug/net7.0/02-valtakuntien-herruus.AssemblyInfo.cs
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/02-valtakuntien-herruus/obj/Debug/net7.0/02-valtakuntien-herruus.csproj.CoreCompileInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/02-valtakuntien-herruus/obj/Debug/net7.0/02-valtakuntien-herruus.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/02-valtakuntien-herruus/obj/Debug/net7.0/refint/02-valtakuntien-herruus.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/02-valtakuntien-herruus/obj/Debug/net7.0/02-valtakuntien-herruus.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/02-valtakuntien-herruus/obj/Debug/net7.0/02-valtakuntien-herruus.genruntimeconfig.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/02-valtakuntien-herruus/obj/Debug/net7.0/ref/02-valtakuntien-herruus.dll

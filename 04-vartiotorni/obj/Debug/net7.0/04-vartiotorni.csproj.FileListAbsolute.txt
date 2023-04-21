@@ -1,0 +1,15 @@
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/04-vartiotorni/bin/Debug/net7.0/04-vartiotorni
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/04-vartiotorni/bin/Debug/net7.0/04-vartiotorni.deps.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/04-vartiotorni/bin/Debug/net7.0/04-vartiotorni.runtimeconfig.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/04-vartiotorni/bin/Debug/net7.0/04-vartiotorni.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/04-vartiotorni/bin/Debug/net7.0/04-vartiotorni.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/04-vartiotorni/obj/Debug/net7.0/04-vartiotorni.csproj.AssemblyReference.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/04-vartiotorni/obj/Debug/net7.0/04-vartiotorni.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/04-vartiotorni/obj/Debug/net7.0/04-vartiotorni.AssemblyInfoInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/04-vartiotorni/obj/Debug/net7.0/04-vartiotorni.AssemblyInfo.cs
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/04-vartiotorni/obj/Debug/net7.0/04-vartiotorni.csproj.CoreCompileInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/04-vartiotorni/obj/Debug/net7.0/04-vartiotorni.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/04-vartiotorni/obj/Debug/net7.0/refint/04-vartiotorni.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/04-vartiotorni/obj/Debug/net7.0/04-vartiotorni.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/04-vartiotorni/obj/Debug/net7.0/04-vartiotorni.genruntimeconfig.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/04-vartiotorni/obj/Debug/net7.0/ref/04-vartiotorni.dll

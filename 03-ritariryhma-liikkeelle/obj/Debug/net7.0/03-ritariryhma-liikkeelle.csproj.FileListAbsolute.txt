@@ -1,0 +1,15 @@
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/03-ritariryhma-liikkeelle/bin/Debug/net7.0/03-ritariryhma-liikkeelle
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/03-ritariryhma-liikkeelle/bin/Debug/net7.0/03-ritariryhma-liikkeelle.deps.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/03-ritariryhma-liikkeelle/bin/Debug/net7.0/03-ritariryhma-liikkeelle.runtimeconfig.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/03-ritariryhma-liikkeelle/bin/Debug/net7.0/03-ritariryhma-liikkeelle.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/03-ritariryhma-liikkeelle/bin/Debug/net7.0/03-ritariryhma-liikkeelle.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/03-ritariryhma-liikkeelle/obj/Debug/net7.0/03-ritariryhma-liikkeelle.csproj.AssemblyReference.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/03-ritariryhma-liikkeelle/obj/Debug/net7.0/03-ritariryhma-liikkeelle.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/03-ritariryhma-liikkeelle/obj/Debug/net7.0/03-ritariryhma-liikkeelle.AssemblyInfoInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/03-ritariryhma-liikkeelle/obj/Debug/net7.0/03-ritariryhma-liikkeelle.AssemblyInfo.cs
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/03-ritariryhma-liikkeelle/obj/Debug/net7.0/03-ritariryhma-liikkeelle.csproj.CoreCompileInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/03-ritariryhma-liikkeelle/obj/Debug/net7.0/03-ritariryhma-liikkeelle.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/03-ritariryhma-liikkeelle/obj/Debug/net7.0/refint/03-ritariryhma-liikkeelle.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/03-ritariryhma-liikkeelle/obj/Debug/net7.0/03-ritariryhma-liikkeelle.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/03-ritariryhma-liikkeelle/obj/Debug/net7.0/03-ritariryhma-liikkeelle.genruntimeconfig.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/03-ritariryhma-liikkeelle/obj/Debug/net7.0/ref/03-ritariryhma-liikkeelle.dll

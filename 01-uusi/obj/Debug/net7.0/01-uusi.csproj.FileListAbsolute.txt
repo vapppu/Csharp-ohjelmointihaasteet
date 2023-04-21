@@ -1,0 +1,15 @@
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-uusi/bin/Debug/net7.0/01-uusi
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-uusi/bin/Debug/net7.0/01-uusi.deps.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-uusi/bin/Debug/net7.0/01-uusi.runtimeconfig.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-uusi/bin/Debug/net7.0/01-uusi.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-uusi/bin/Debug/net7.0/01-uusi.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-uusi/obj/Debug/net7.0/01-uusi.csproj.AssemblyReference.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-uusi/obj/Debug/net7.0/01-uusi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-uusi/obj/Debug/net7.0/01-uusi.AssemblyInfoInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-uusi/obj/Debug/net7.0/01-uusi.AssemblyInfo.cs
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-uusi/obj/Debug/net7.0/01-uusi.csproj.CoreCompileInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-uusi/obj/Debug/net7.0/01-uusi.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-uusi/obj/Debug/net7.0/refint/01-uusi.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-uusi/obj/Debug/net7.0/01-uusi.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-uusi/obj/Debug/net7.0/01-uusi.genruntimeconfig.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-uusi/obj/Debug/net7.0/ref/01-uusi.dll

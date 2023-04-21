@@ -1,0 +1,15 @@
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/05-arvuutuskone/bin/Debug/net7.0/05-arvuutuskone
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/05-arvuutuskone/bin/Debug/net7.0/05-arvuutuskone.deps.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/05-arvuutuskone/bin/Debug/net7.0/05-arvuutuskone.runtimeconfig.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/05-arvuutuskone/bin/Debug/net7.0/05-arvuutuskone.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/05-arvuutuskone/bin/Debug/net7.0/05-arvuutuskone.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/05-arvuutuskone/obj/Debug/net7.0/05-arvuutuskone.csproj.AssemblyReference.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/05-arvuutuskone/obj/Debug/net7.0/05-arvuutuskone.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/05-arvuutuskone/obj/Debug/net7.0/05-arvuutuskone.AssemblyInfoInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/05-arvuutuskone/obj/Debug/net7.0/05-arvuutuskone.AssemblyInfo.cs
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/05-arvuutuskone/obj/Debug/net7.0/05-arvuutuskone.csproj.CoreCompileInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/05-arvuutuskone/obj/Debug/net7.0/05-arvuutuskone.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/05-arvuutuskone/obj/Debug/net7.0/refint/05-arvuutuskone.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/05-arvuutuskone/obj/Debug/net7.0/05-arvuutuskone.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/05-arvuutuskone/obj/Debug/net7.0/05-arvuutuskone.genruntimeconfig.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/05-arvuutuskone/obj/Debug/net7.0/ref/05-arvuutuskone.dll

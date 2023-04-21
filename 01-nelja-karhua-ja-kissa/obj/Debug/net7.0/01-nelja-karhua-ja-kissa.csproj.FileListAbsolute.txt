@@ -1,0 +1,15 @@
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-nelja-karhua-ja-kissa/bin/Debug/net7.0/01-nelja-karhua-ja-kissa
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-nelja-karhua-ja-kissa/bin/Debug/net7.0/01-nelja-karhua-ja-kissa.deps.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-nelja-karhua-ja-kissa/bin/Debug/net7.0/01-nelja-karhua-ja-kissa.runtimeconfig.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-nelja-karhua-ja-kissa/bin/Debug/net7.0/01-nelja-karhua-ja-kissa.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-nelja-karhua-ja-kissa/bin/Debug/net7.0/01-nelja-karhua-ja-kissa.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-nelja-karhua-ja-kissa/obj/Debug/net7.0/01-nelja-karhua-ja-kissa.csproj.AssemblyReference.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-nelja-karhua-ja-kissa/obj/Debug/net7.0/01-nelja-karhua-ja-kissa.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-nelja-karhua-ja-kissa/obj/Debug/net7.0/01-nelja-karhua-ja-kissa.AssemblyInfoInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-nelja-karhua-ja-kissa/obj/Debug/net7.0/01-nelja-karhua-ja-kissa.AssemblyInfo.cs
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-nelja-karhua-ja-kissa/obj/Debug/net7.0/01-nelja-karhua-ja-kissa.csproj.CoreCompileInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-nelja-karhua-ja-kissa/obj/Debug/net7.0/01-nelja-karhua-ja-kissa.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-nelja-karhua-ja-kissa/obj/Debug/net7.0/refint/01-nelja-karhua-ja-kissa.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-nelja-karhua-ja-kissa/obj/Debug/net7.0/01-nelja-karhua-ja-kissa.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-nelja-karhua-ja-kissa/obj/Debug/net7.0/01-nelja-karhua-ja-kissa.genruntimeconfig.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/01-nelja-karhua-ja-kissa/obj/Debug/net7.0/ref/01-nelja-karhua-ja-kissa.dll
