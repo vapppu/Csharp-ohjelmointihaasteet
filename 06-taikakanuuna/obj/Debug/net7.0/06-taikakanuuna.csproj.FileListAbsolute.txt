@@ -1,0 +1,15 @@
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/06-taikakanuuna/bin/Debug/net7.0/06-taikakanuuna
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/06-taikakanuuna/bin/Debug/net7.0/06-taikakanuuna.deps.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/06-taikakanuuna/bin/Debug/net7.0/06-taikakanuuna.runtimeconfig.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/06-taikakanuuna/bin/Debug/net7.0/06-taikakanuuna.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/06-taikakanuuna/bin/Debug/net7.0/06-taikakanuuna.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/06-taikakanuuna/obj/Debug/net7.0/06-taikakanuuna.csproj.AssemblyReference.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/06-taikakanuuna/obj/Debug/net7.0/06-taikakanuuna.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/06-taikakanuuna/obj/Debug/net7.0/06-taikakanuuna.AssemblyInfoInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/06-taikakanuuna/obj/Debug/net7.0/06-taikakanuuna.AssemblyInfo.cs
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/06-taikakanuuna/obj/Debug/net7.0/06-taikakanuuna.csproj.CoreCompileInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/06-taikakanuuna/obj/Debug/net7.0/06-taikakanuuna.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/06-taikakanuuna/obj/Debug/net7.0/refint/06-taikakanuuna.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/06-taikakanuuna/obj/Debug/net7.0/06-taikakanuuna.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/06-taikakanuuna/obj/Debug/net7.0/06-taikakanuuna.genruntimeconfig.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/06-taikakanuuna/obj/Debug/net7.0/ref/06-taikakanuuna.dll
