@@ -1,0 +1,15 @@
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/09-arvosanat/bin/Debug/net7.0/09-arvosanat
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/09-arvosanat/bin/Debug/net7.0/09-arvosanat.deps.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/09-arvosanat/bin/Debug/net7.0/09-arvosanat.runtimeconfig.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/09-arvosanat/bin/Debug/net7.0/09-arvosanat.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/09-arvosanat/bin/Debug/net7.0/09-arvosanat.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/09-arvosanat/obj/Debug/net7.0/09-arvosanat.csproj.AssemblyReference.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/09-arvosanat/obj/Debug/net7.0/09-arvosanat.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/09-arvosanat/obj/Debug/net7.0/09-arvosanat.AssemblyInfoInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/09-arvosanat/obj/Debug/net7.0/09-arvosanat.AssemblyInfo.cs
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/09-arvosanat/obj/Debug/net7.0/09-arvosanat.csproj.CoreCompileInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/09-arvosanat/obj/Debug/net7.0/09-arvosanat.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/09-arvosanat/obj/Debug/net7.0/refint/09-arvosanat.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/09-arvosanat/obj/Debug/net7.0/09-arvosanat.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/09-arvosanat/obj/Debug/net7.0/09-arvosanat.genruntimeconfig.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/09-arvosanat/obj/Debug/net7.0/ref/09-arvosanat.dll
