@@ -8,12 +8,12 @@
         {
             foreach (int num in Enumerable.Range(1, 100))
             {
-                if ((num % 3) == 0 && (num % 5 == 0))
+                if ((num % 3 == 0) && (num % 5 == 0))
                 {
                     Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.WriteLine($"{num}: Electric and Fire");
                 }
-                else if ((num % 3) == 0)
+                else if (num % 3 == 0)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"{num}: Fire");
