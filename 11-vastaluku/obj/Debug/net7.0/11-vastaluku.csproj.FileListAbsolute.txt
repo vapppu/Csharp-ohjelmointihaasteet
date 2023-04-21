@@ -1,0 +1,15 @@
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/11-vastaluku/bin/Debug/net7.0/11-vastaluku
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/11-vastaluku/bin/Debug/net7.0/11-vastaluku.deps.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/11-vastaluku/bin/Debug/net7.0/11-vastaluku.runtimeconfig.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/11-vastaluku/bin/Debug/net7.0/11-vastaluku.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/11-vastaluku/bin/Debug/net7.0/11-vastaluku.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/11-vastaluku/obj/Debug/net7.0/11-vastaluku.csproj.AssemblyReference.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/11-vastaluku/obj/Debug/net7.0/11-vastaluku.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/11-vastaluku/obj/Debug/net7.0/11-vastaluku.AssemblyInfoInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/11-vastaluku/obj/Debug/net7.0/11-vastaluku.AssemblyInfo.cs
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/11-vastaluku/obj/Debug/net7.0/11-vastaluku.csproj.CoreCompileInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/11-vastaluku/obj/Debug/net7.0/11-vastaluku.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/11-vastaluku/obj/Debug/net7.0/refint/11-vastaluku.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/11-vastaluku/obj/Debug/net7.0/11-vastaluku.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/11-vastaluku/obj/Debug/net7.0/11-vastaluku.genruntimeconfig.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/11-vastaluku/obj/Debug/net7.0/ref/11-vastaluku.dll
