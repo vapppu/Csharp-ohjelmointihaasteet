@@ -1,0 +1,15 @@
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/07-kivi-paperi-ja-sakset/bin/Debug/net7.0/07-kivi-paperi-ja-sakset
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/07-kivi-paperi-ja-sakset/bin/Debug/net7.0/07-kivi-paperi-ja-sakset.deps.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/07-kivi-paperi-ja-sakset/bin/Debug/net7.0/07-kivi-paperi-ja-sakset.runtimeconfig.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/07-kivi-paperi-ja-sakset/bin/Debug/net7.0/07-kivi-paperi-ja-sakset.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/07-kivi-paperi-ja-sakset/bin/Debug/net7.0/07-kivi-paperi-ja-sakset.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/07-kivi-paperi-ja-sakset/obj/Debug/net7.0/07-kivi-paperi-ja-sakset.csproj.AssemblyReference.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/07-kivi-paperi-ja-sakset/obj/Debug/net7.0/07-kivi-paperi-ja-sakset.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/07-kivi-paperi-ja-sakset/obj/Debug/net7.0/07-kivi-paperi-ja-sakset.AssemblyInfoInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/07-kivi-paperi-ja-sakset/obj/Debug/net7.0/07-kivi-paperi-ja-sakset.AssemblyInfo.cs
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/07-kivi-paperi-ja-sakset/obj/Debug/net7.0/07-kivi-paperi-ja-sakset.csproj.CoreCompileInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/07-kivi-paperi-ja-sakset/obj/Debug/net7.0/07-kivi-paperi-ja-sakset.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/07-kivi-paperi-ja-sakset/obj/Debug/net7.0/refint/07-kivi-paperi-ja-sakset.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/07-kivi-paperi-ja-sakset/obj/Debug/net7.0/07-kivi-paperi-ja-sakset.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/07-kivi-paperi-ja-sakset/obj/Debug/net7.0/07-kivi-paperi-ja-sakset.genruntimeconfig.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/07-kivi-paperi-ja-sakset/obj/Debug/net7.0/ref/07-kivi-paperi-ja-sakset.dll
