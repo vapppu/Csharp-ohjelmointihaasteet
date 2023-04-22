@@ -62,7 +62,7 @@
                 {
                     for (int i = 0; i < this.luvut.Length; i++)
                     {
-                        this.luvut[i] = (this.luvut[i] - this.luvut[i] * 2);
+                        this.luvut[i] = -this.luvut[i];
                     }
                 }
             }
@@ -83,7 +83,7 @@
         }
         static int vastaluku(int luku)
         {
-            return (luku - (2 * luku));
+            return (-luku);
         }
 
         static void tulostaArray(int[] array)
@@ -106,7 +106,7 @@ namespace ExtensionMethods
         {
             for (int i = 0; i < luvut.Length; i++)
             {
-                luvut[i] = luvut[i] - 2 * luvut[i];
+                luvut[i] = -luvut[i];
             }
             return;
         }
