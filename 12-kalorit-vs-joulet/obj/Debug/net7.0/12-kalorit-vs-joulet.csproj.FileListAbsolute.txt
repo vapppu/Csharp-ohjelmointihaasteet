@@ -1,0 +1,15 @@
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/12-kalorit-vs-joulet/bin/Debug/net7.0/12-kalorit-vs-joulet
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/12-kalorit-vs-joulet/bin/Debug/net7.0/12-kalorit-vs-joulet.deps.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/12-kalorit-vs-joulet/bin/Debug/net7.0/12-kalorit-vs-joulet.runtimeconfig.json
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/12-kalorit-vs-joulet/bin/Debug/net7.0/12-kalorit-vs-joulet.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/12-kalorit-vs-joulet/bin/Debug/net7.0/12-kalorit-vs-joulet.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/12-kalorit-vs-joulet/obj/Debug/net7.0/12-kalorit-vs-joulet.csproj.AssemblyReference.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/12-kalorit-vs-joulet/obj/Debug/net7.0/12-kalorit-vs-joulet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/12-kalorit-vs-joulet/obj/Debug/net7.0/12-kalorit-vs-joulet.AssemblyInfoInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/12-kalorit-vs-joulet/obj/Debug/net7.0/12-kalorit-vs-joulet.AssemblyInfo.cs
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/12-kalorit-vs-joulet/obj/Debug/net7.0/12-kalorit-vs-joulet.csproj.CoreCompileInputs.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/12-kalorit-vs-joulet/obj/Debug/net7.0/12-kalorit-vs-joulet.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/12-kalorit-vs-joulet/obj/Debug/net7.0/refint/12-kalorit-vs-joulet.dll
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/12-kalorit-vs-joulet/obj/Debug/net7.0/12-kalorit-vs-joulet.pdb
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/12-kalorit-vs-joulet/obj/Debug/net7.0/12-kalorit-vs-joulet.genruntimeconfig.cache
+/Users/s2300290/Documents/Harjoituksia/CSHARP/Ohjelmointihaasteet/12-kalorit-vs-joulet/obj/Debug/net7.0/ref/12-kalorit-vs-joulet.dll
