@@ -12,11 +12,10 @@ namespace Haaste13
 
         static void Main(string[] args)
         {
-            string teksti = "Herra Huun osoite on tattisuonkatu 42 A 123.";
+            string teksti = "400000";
             Console.WriteLine(teksti);
             Console.WriteLine(muunnaTekstiksi(teksti));
         }
-
 
         static string muunnaTekstiksi(string teksti)
         {
@@ -69,7 +68,106 @@ namespace Haaste13
 
             Array.Reverse(digits);
 
-            return (sadatTuhannet(digits) + kymmenetTuhannetJaTuhannet(digits) + sadat(digits) + (ykkosetJaKymmenet(digits)));
+            switch (numero.Length)
+            {
+                case 1:
+                    return (ykkosetJaKymmenet(digits));
+                case 2:
+                    return (ykkosetJaKymmenet(digits));
+                case 3:
+                    return (sadat(digits));
+                case 4:
+                    return (kymmenetTuhannetJaTuhannet(digits));
+                case 5:
+                    return (kymmenetTuhannetJaTuhannet(digits));
+                case 6:
+                    return (sadatTuhannet(digits));
+                default:
+                    return "kissa";
+            }
+
+        }
+
+        static string sadatTuhannet(int[] digits)
+        {
+            string converted = "";
+            // Jos luku on miljoona tai yli ja sadattuhannet on nolla, palauta tyhjä merkkijono
+            if (digits.Length >= 6)
+                if (digits[5] == 0)
+                    converted = "";
+                else
+                    // Palauta montako sataa tuhatta
+                    converted = sadat(new int[] { digits[3], digits[4], digits[5] });
+            // Jos luku on alle satatuhatta
+            else
+                converted = "";
+
+            return converted + kymmenetTuhannetJaTuhannet(digits);
+        }
+
+        static string kymmenetTuhannetJaTuhannet(int[] digits)
+        {
+            string converted = "";
+            // Jos luku on alle kymmenentuhatta
+            if (digits.Length == 4)
+            {
+                converted = ykkoset[digits[3]] + "tuhatta";
+            }
+            else if (digits.Length >= 5)
+            {
+                // Jos tuhannet ja kymmenettuhannet on nolla
+                if (digits[4] == 0)
+                {
+                    if (digits[3] == 0)
+                    {
+                        converted = "";
+                    }
+                    else
+                    {
+                        // Jos kymmenettuhannet on nolla mutta tuhannet ei -> palauta tuhannet
+                        converted = tuhannet(digits) + "tuhatta";
+                    }
+                }
+                else      // Kymmenettuhannet ja tuhannet ei ole nolla -> palauta montako kymmentä tuhatta
+                {
+                    converted = (ykkosetJaKymmenet(new int[] { digits[3], digits[4] }) + "tuhatta");
+                }
+            }
+
+            return converted + sadat(digits);
+        }
+
+        static string tuhannet(int[] digits)
+        {
+            // Jos luku on alle tuhat
+            if (digits.Length < 4)
+                return "";
+            // Jos tuhannet on nolla
+            else if (digits[3] == 0)
+                return "";
+            // Jos tuhannet on yksi
+            else if (digits[3] == 1)
+                return "tuhat";
+            // Muuten tulosta "n tuhatta"
+            else
+                return (ykkoset[digits[3]] + "tuhatta");
+        }
+
+        static string sadat(int[] digits)
+        {
+            string converted = "";
+
+            // Jos sadat on nolla
+            if (digits[2] == 0)
+                converted = "";
+            // Jos sadat on yksi
+            else if (digits[2] == 1)
+                converted = "sata";
+            // Muuten tulosta "n sataa"
+            else
+                converted = (ykkoset[digits[2]] + "sataa");
+
+            return converted + ykkosetJaKymmenet(digits);
         }
 
         static string ykkosetJaKymmenet(int[] digits)
@@ -105,72 +203,15 @@ namespace Haaste13
                 return ykkoset[digits[1]] + "kymmentä" + ykkoset[digits[0]];
             }
         }
-        static string sadat(int[] digits)
-        {
-            // Jos luku on alle sata
-            if (digits.Length < 3)
-                return "";
-            // Jos sadat on nolla
-            else if (digits[2] == 0)
-                return "";
-            // Jos sadat on yksi
-            else if (digits[2] == 1)
-                return "sata";
-            // Muuten tulosta "n sataa"
-            else
-                return (ykkoset[digits[2]] + "sataa");
-        }
-        static string tuhannet(int[] digits)
-        {
-            // Jos luku on alle tuhat
-            if (digits.Length < 4)
-                return "";
-            // Jos tuhannet on nolla
-            else if (digits[3] == 0)
-                return "";
-            // Jos tuhannet on yksi
-            else if (digits[3] == 1)
-                return "tuhat";
-            // Muuten tulosta "n tuhatta"
-            else
-                return (ykkoset[digits[3]] + "tuhatta");
-        }
 
-        static string kymmenetTuhannetJaTuhannet(int[] digits)
-        {
-            // Jos luku on alle kymmenentuhatta
-            if (digits.Length == 4)
-            {
-                return tuhannet(digits);
-            }
-            else if (digits.Length >= 5)
-            {
-                // Jos tuhannet ja kymmenettuhannet on nolla
-                if (digits[4] == 0)
-                    if (digits[3] == 0)
-                        return "";
-                    else
-                        // Jos kymmenettuhannet on nolla mutta tuhannet ei -> palauta tuhannet
-                        return tuhannet(digits);
-                // Kymmenettuhannet ja tuhannet ei ole nolla -> palauta montako kymmentä tuhatta
-                return (ykkosetJaKymmenet(new int[] { digits[3], digits[4] }) + "tuhatta");
-            }
-            else
-                return "";
-        }
 
-        static string sadatTuhannet(int[] digits)
-        {
-            // Jos luku on miljoona tai yli ja sadattuhannet on nolla, palauta tyhjä merkkijono
-            if (digits.Length >= 6)
-                if (digits[5] == 0)
-                    return "";
-                else
-                    // Palauta montako sataa tuhatta
-                    return sadat(new int[] { digits[3], digits[4], digits[5] });
-            // Jos luku on alle satatuhatta
-            else
-                return "";
-        }
+
+
+
+        // static string muunna(int[] digits)
+        // {
+        //     string converted = "";
+        //     return converted + sadatTuhannet(digits);
+        // }
     }
 }
