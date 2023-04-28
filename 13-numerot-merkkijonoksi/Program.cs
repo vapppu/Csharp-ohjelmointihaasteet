@@ -3,6 +3,7 @@
 namespace Haaste13
 {
     using System;
+    using System.IO;
 
     public class Program
     {
@@ -12,8 +13,22 @@ namespace Haaste13
 
         static void Main(string[] args)
         {
-            string text = "1100 1000000 9807987643";
-            Console.WriteLine(convertNumbersToText(text));
+            string fileName = "input.txt";
+
+            if (File.Exists(fileName))
+            {
+                string text = File.ReadAllText(fileName);
+
+                using (StreamWriter outputFile = new StreamWriter("output.txt"))
+                {
+                    outputFile.Write(convertNumbersToText(text));
+                }
+            }
+            else
+            {
+                Console.WriteLine("File input.txt doesn't exist!");
+            }
+
         }
 
         static string convertNumbersToText(string text)
@@ -34,6 +49,10 @@ namespace Haaste13
                         {
                             i++;
                             newNumber += text[i];
+                        }
+                        else if ((i < (text.Length - 1) && (text[i + 1] == ' ') && Char.IsDigit(text[i + 2])))
+                        {
+                            i++;
                         }
                         else
                             break;
@@ -85,7 +104,7 @@ namespace Haaste13
             hundreds.Reverse();
 
             // Palautetaan aikaansaatu satasen palikoiden lista tekstiksi muunnettuna
-            return (hundredsToText(hundreds));
+            return (hundredsToText(hundreds)).TrimEnd();
 
         }
         static string hundredsToText(List<string> hundreds)
