@@ -50,7 +50,7 @@ namespace Haaste13
                             i++;
                             newNumber += text[i];
                         }
-                        else if ((i < (text.Length - 1) && (text[i + 1] == ' ') && Char.IsDigit(text[i + 2])))
+                        else if ((i < (text.Length - 2) && (text[i + 1] == ' ') && Char.IsDigit(text[i + 2])))
                         {
                             i++;
                         }
