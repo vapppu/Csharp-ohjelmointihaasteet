@@ -1,218 +1,194 @@
 ﻿#nullable disable
 
-// HUOM! Ohjelma toimii satoihintuhansiin asti, ei siitä ylöspäin...
-
 namespace Haaste13
 {
     using System;
 
     public class Program
     {
-        public static readonly string[] ykkoset = { "", "yksi", "kaksi", "kolme", "neljä", "viisi", "kuusi", "seitsemän", "kahdeksan", "yhdeksän" };
+        public static readonly string[] oneToNine = { "", "yksi", "kaksi", "kolme", "neljä", "viisi", "kuusi", "seitsemän", "kahdeksan", "yhdeksän" };
+        public static readonly List<string> thirdPowersOfTen = new List<string> { "", "tuhatta", "miljoonaa", "miljardia" };
+        public static readonly List<string> singleThirdPowersOfTen = new List<string> { "yksi", "tuhat", "miljoona", "miljardi" };
 
         static void Main(string[] args)
         {
-
-            Console.Write(muunnaTekstiksi("Herra huu asuu talossa 765 ja on syntynyt vuonna 1980. Hän on 1000 vuotta vanha."));
-
+            string text = "0 9876 600 8888888 63500 herra huu! kukas muu";
+            Console.WriteLine(convertNumbersToText(text));
         }
 
-        static string muunnaTekstiksi(string teksti)
+        static string convertNumbersToText(string text)
         {
-            string muunnettuTeksti = "";
+            string convertedText = "";
 
-            // Käy teksti merkki kerrallaan läpi ja tallenna merkit uuteen merkkijonoon, jossa numeroista koostuvat osamerkkijonot on muutettu numeroiksi tekstinä.
-            for (int i = 0; i < teksti.Length; i++)
+            // Käy teksti merkki kerrallaan läpi 
+            for (int i = 0; i < text.Length; i++)
             {
-                if (Char.IsDigit(teksti[i]))
+                // Löydä numeroista koostuvat osamerkkijonot, muunna ne tekstimuotoisiksi kirjoita palautettavaan merkkijonoon (muunnettuTeksti)
+                if (Char.IsDigit(text[i]))
                 {
-                    string uusiNumero = teksti[i].ToString();
-                    while (true)
+                    string newNumber = text[i].ToString();
+
+                    while (i < (text.Length - 1))
                     {
-                        try
+                        if (Char.IsDigit(text[i + 1]))
                         {
-                            if (Char.IsDigit(teksti[i + 1]))
-                            {
-                                i++;
-                                uusiNumero += teksti[i];
-                            }
-                            else
-                            {
-                                muunnettuTeksti += (numeroTekstiksi(uusiNumero));
-                                break;
-                            }
+                            i++;
+                            newNumber += text[i];
                         }
-                        catch (IndexOutOfRangeException)
-                        {
-                            muunnettuTeksti += (numeroTekstiksi(uusiNumero));
+                        else
                             break;
-                        }
                     }
+                    convertedText += (numberToText(newNumber));
                 }
+
+                // Kirjoita merkit, jotka eivät ole numeroita, palautettavaan merkkijonoon sellaisinaan
                 else
-                {
-                    muunnettuTeksti += teksti[i];
-                }
+                    convertedText += text[i];
             }
-            return muunnettuTeksti;
+            return convertedText;
+
         }
 
-
-        static string numeroTekstiksi(string numero)
+        static string numberToText(string number)
         {
-            Console.Write($"{numero} : ");
-
-            if (numero == "0")
+            // Palauta erityistapaus nolla
+            if (number == "0")
                 return "nolla";
-            else if (numero == "1")
-                return "yksi";
 
-            // Käännetään numero alusta loppuun, jotta voidaan käsitellä sitä arrayna ykkösistä lähtien.
+            // Muunnetaan numero taulukoksi, jossa ykköset ovat ensimmäisellä paikalla, kymmenet toisella jne. 
 
-            char[] numeroAsArray = numero.ToCharArray();
-            Array.Reverse(numeroAsArray);
-            string numeroReversed = new string(numeroAsArray);
+            char[] numberAsArray = number.ToCharArray();
+            Array.Reverse(numberAsArray);
+            string numberReversed = new string(numberAsArray);
 
-            // Jaetaan array kolmen numeron kokoisiin osiin (sadat-kymmenet-ykköset), jotta näitä palasia voidaan kääntää tekstiksi yksi kerrallaan.
+            // Jaetaan array kolmen numeron kokoisiin osamerkkijonoihin, jotta näitä palasia voidaan kääntää tekstiksi aina sadan joukkio kerrallaan.
 
             List<string> hundredSlices = new List<string>();
 
-            int jakojaannos = numero.Length % 3;
+            // Jakojäännöksestä nähdään, onko viimeisen merkkijonon pituus kolme vai vähemmän
+            int jakojaannos = number.Length % 3;
 
-            for (int i = 0; i < numero.Length; i += 3)
+            // Lisätään "sataset" listaan.
+            for (int i = 0; i < number.Length; i += 3)
             {
                 try
                 {
-                    hundredSlices.Add(numeroReversed.Substring(i, 3));
+                    hundredSlices.Add(numberReversed.Substring(i, 3));
                 }
                 catch (System.ArgumentOutOfRangeException)
                 {
-                    hundredSlices.Add(numeroReversed.Substring(i, jakojaannos));
+                    hundredSlices.Add(numberReversed.Substring(i, jakojaannos));
                 }
             }
 
-            List<string> kertaluokat = new List<string> { "", "tuhatta", "miljoonaa", "miljardia" };
-            List<string> yksittäisetKertaluokat = new List<string> { "", "tuhat", "miljoona", "miljardi" };
-
-            int counter = hundredSlices.Count() - 1;
-
-            // Perustetaan paluuarvomerkkijono, johon seuraavaksi lisätään tekstiksi muutettuja numeron osasia
-            string numberAsString = "";
-
-            // Käännetään paloitellun numeron osasten lista jälleen niin, että isoimmat ovat alussa
+            // Käännetään satasen lista taas niin päin, että suurin on ensimmäisenä
             hundredSlices.Reverse();
 
+            // Palautetaan aikaansaatu satasen palikoiden lista tekstiksi muunnettuna
+            return (hundredSlicesToText(hundredSlices));
+
+        }
+        static string hundredSlicesToText(List<string> hundredSlices)
+        {
+            string numberAsString = "";
+
+            //  Suurin "kertaluokka", josta lasketellaan alaspäin
+            int hundredsCount = hundredSlices.Count() - 1;
+
             // Käsitellään jokaista "satasen palikkaa" kokonaislukutaulukkona
-            foreach (string substring in hundredSlices)
+            foreach (string hundredString in hundredSlices)
             {
-                int[] digitArray = new int[substring.Length];
+                int[] digits = new int[hundredString.Length];
 
-                for (int j = 0; j < substring.Length; j++)
-                {
-                    digitArray[j] = Convert.ToInt32(substring[j].ToString());
-                }
+                for (int j = 0; j < hundredString.Length; j++)
+                    digits[j] = Convert.ToInt32(hundredString[j].ToString());
 
-                // Jos kaikki arrayn kokonaisluvut eivät ole nollia, käännetään array tekstiksi.
-                if (!arrayIsZero(digitArray))
-                {
-                    bool onlyOne = false;
+                if (isOnlyOne(digits))
+                    numberAsString += singleThirdPowersOfTen[hundredsCount];
 
-                    for (int k = 1; k < digitArray.Count() - 1; k++)
-                    {
-                        if (!(digitArray[k + 1] == 0))
-                        {
-                            onlyOne = true;
-                        }
-                    }
+                else if (!arrayIsZero(digits))
+                    numberAsString += hundredsTensOnes(digits, hundredsCount);
 
-                    if (digitArray.Length == 3)
-                    {
-                        numberAsString += (sadat(digitArray));
-                    }
-
-                    // Erityistapaus: jos satatsen palikka alkaa ykkösellä, tulostetaan kertaluokka yksikössä ("tuhat", "sata", vrt. "tuhatta" jne.)
-                    if ((digitArray[0] == 1) && (onlyOne = true))
-                    {
-                        numberAsString += yksittäisetKertaluokat[counter];
-                    }
-                    else
-                    {
-                        numberAsString += (ykkosetJaKymmenet(digitArray));
-                        numberAsString += (kertaluokat[counter]);
-                    }
-                    counter--;
-
-                }
+                hundredsCount--;
             }
 
             return (numberAsString);
 
+        }
 
-            // Palauttaa tosi, jos kaikki kokonaislukutaulukon jäsenet ovat nollia
-            static bool arrayIsZero(int[] intArray)
+        // Palauttaa tosi, jos kokonaislukutaulukon ensimmäinen alkio on 1 ja loput nollia
+        static bool isOnlyOne(int[] digits)
+        {
+            for (int i = 0; i < digits.Count() - 1; i++)
+                if (digits[i + 1] != 0)
+                    return false;
+            return (digits[0] == 1);
+        }
+
+        // Palauttaa tosi, jos kaikki kokonaislukutaulukon jäsenet ovat nollia
+        static bool arrayIsZero(int[] digits)
+        {
+            foreach (int digit in digits)
+                if (digit != 0)
+                    return false;
+            return true;
+        }
+
+        // Palauttaa max. kolmen pituisen kokonaislukutaulukon tekstiksi muunnettuna (X sataa Y kymmentä Z)
+        static string hundredsTensOnes(int[] digits, int hundredsCount)
+        {
+            if ((digits.Length > 3) || (digits.Length == 0))
+                throw new IndexOutOfRangeException("Array length must be between 1 and 3.");
+
+            string numberAsString = "";
+
+            // SADAT
+
+            if (digits.Length == 3)
             {
-                foreach (int integer in intArray)
-                {
-                    if (!(integer == 0))
-                    {
-                        return false;
-                    }
-                }
-                return true;
+                int hundreds = digits[2];
+
+                if (hundreds == 1)
+                    numberAsString += "sata";
+
+                else if (hundreds != 0)
+                    numberAsString += (oneToNine[hundreds] + "sataa");
             }
 
-            static string sadat(int[] digits)
+            // KYMMENET JA YKKÖSET:
+
+            if (digits.Length >= 2)
             {
-                string converted = "";
+                int tens = digits[1];
+                int ones = digits[0];
 
-                // Jos sadat on nolla
-                if (digits[2] == 0)
+                // 00-09
+                if ((tens == 0) && (ones != 0))
+                    numberAsString += oneToNine[ones];
 
-                    converted = "";
-                // Jos sadat on yksi
-                else if (digits[2] == 1)
-                    converted = "sata";
-                // Muuten tulosta "n sataa"
-                else
-                    converted = (ykkoset[digits[2]] + "sataa");
-
-                return converted;
-            }
-
-
-            static string ykkosetJaKymmenet(int[] digits)
-            {
-                // 0-9
-                if (digits.Length == 1)
+                // 10-19
+                else if (tens == 1)
                 {
-                    if (digits[0] == 0)
-                        return "nolla";
+                    if (ones == 0)
+                        numberAsString += "kymmenen";
                     else
-                        return ykkoset[digits[0]];
+                        numberAsString += (oneToNine[ones] + "toista");
                 }
-                // Jos kymmenet on nollassa, älä kirjoita kymmenien kohdalle mitään
-                if (digits[1] == 0)
-                    if (digits[0] != 0)
-                        return ykkoset[digits[0]];
-                    else
-                        return "";
 
-                // 10 - 19
-                if (digits[1] == 1)
-                {
-                    // kymmenen:
-                    if (digits[0] == 0)
-                        return "kymmenen";
-                    // 11-19
-                    else
-                        return ykkoset[digits[0]] + "toista";
-                }
                 // 20-99
                 else
-                {
-                    return ykkoset[digits[1]] + "kymmentä" + ykkoset[digits[0]];
-                }
+                    numberAsString += (oneToNine[tens] + "kymmentä" + oneToNine[ones]);
             }
+
+            // PELKÄT YKKÖSET (jos arrayn pituus 1)
+
+            else
+            {
+                int ones = digits[0];
+                numberAsString += oneToNine[ones];
+            }
+
+            return numberAsString + thirdPowersOfTen[hundredsCount];
         }
     }
 }
