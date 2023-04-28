@@ -7,12 +7,12 @@ namespace Haaste13
     public class Program
     {
         public static readonly string[] oneToNine = { "", "yksi", "kaksi", "kolme", "neljä", "viisi", "kuusi", "seitsemän", "kahdeksan", "yhdeksän" };
-        public static readonly List<string> thirdPowersOfTen = new List<string> { "", "tuhatta", "miljoonaa", "miljardia" };
-        public static readonly List<string> singleThirdPowersOfTen = new List<string> { "yksi", "tuhat", "miljoona", "miljardi" };
+        public static readonly List<string> thirdPowersOfTen = new List<string> { "", "tuhatta ", "miljoonaa ", "miljardia " };
+        public static readonly List<string> singleThirdPowersOfTen = new List<string> { "yksi", "tuhat ", "miljoona ", "miljardi " };
 
         static void Main(string[] args)
         {
-            string text = "0 9876 600 8888888 63500 herra huu! kukas muu";
+            string text = "1100 1000000 9807987643";
             Console.WriteLine(convertNumbersToText(text));
         }
 
@@ -162,7 +162,7 @@ namespace Haaste13
                 int tens = digits[1];
                 int ones = digits[0];
 
-                // 00-09
+                // 01-09
                 if ((tens == 0) && (ones != 0))
                     numberAsString += oneToNine[ones];
 
@@ -176,7 +176,7 @@ namespace Haaste13
                 }
 
                 // 20-99
-                else
+                else if (!((ones == 0) && tens == 0))
                     numberAsString += (oneToNine[tens] + "kymmentä" + oneToNine[ones]);
             }
 
@@ -188,7 +188,7 @@ namespace Haaste13
                 numberAsString += oneToNine[ones];
             }
 
-            return numberAsString + thirdPowersOfTen[hundredsCount];
+            return (numberAsString + thirdPowersOfTen[hundredsCount]);
         }
     }
 }
