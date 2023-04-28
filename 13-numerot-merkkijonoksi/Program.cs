@@ -63,7 +63,7 @@ namespace Haaste13
 
             // Jaetaan array kolmen numeron kokoisiin osamerkkijonoihin, jotta näitä palasia voidaan kääntää tekstiksi aina sadan joukkio kerrallaan.
 
-            List<string> hundredSlices = new List<string>();
+            List<string> hundreds = new List<string>();
 
             // Jakojäännöksestä nähdään, onko viimeisen merkkijonon pituus kolme vai vähemmän
             int jakojaannos = number.Length % 3;
@@ -73,30 +73,30 @@ namespace Haaste13
             {
                 try
                 {
-                    hundredSlices.Add(numberReversed.Substring(i, 3));
+                    hundreds.Add(numberReversed.Substring(i, 3));
                 }
                 catch (System.ArgumentOutOfRangeException)
                 {
-                    hundredSlices.Add(numberReversed.Substring(i, jakojaannos));
+                    hundreds.Add(numberReversed.Substring(i, jakojaannos));
                 }
             }
 
             // Käännetään satasen lista taas niin päin, että suurin on ensimmäisenä
-            hundredSlices.Reverse();
+            hundreds.Reverse();
 
             // Palautetaan aikaansaatu satasen palikoiden lista tekstiksi muunnettuna
-            return (hundredSlicesToText(hundredSlices));
+            return (hundredsToText(hundreds));
 
         }
-        static string hundredSlicesToText(List<string> hundredSlices)
+        static string hundredsToText(List<string> hundreds)
         {
             string numberAsString = "";
 
             //  Suurin "kertaluokka", josta lasketellaan alaspäin
-            int hundredsCount = hundredSlices.Count() - 1;
+            int hundredsCount = hundreds.Count() - 1;
 
             // Käsitellään jokaista "satasen palikkaa" kokonaislukutaulukkona
-            foreach (string hundredString in hundredSlices)
+            foreach (string hundredString in hundreds)
             {
                 int[] digits = new int[hundredString.Length];
 
